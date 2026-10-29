@@ -1,0 +1,19 @@
+# Credentials: never commit these
+service-account*.json
+*credentials*.json
+*.key
+
+# Your Search Console exports and results
+Pages.csv
+Queries.csv
+*Performance*.csv
+ctr_opportunities*.csv
+out_*.csv
+gsc_*.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
